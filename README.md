@@ -29,3 +29,6 @@ Utilized **yfinance** for data retrieval of NSE stocks, obtaining historical pri
 - pf_vol = pf_returns.std()
 - pf_vol = pf_vol * np.sqrt(250)
 - sharpe_ratio = ((annualized_return - rfr) / pf_vol)
+
+## Efficient Frontier
+
