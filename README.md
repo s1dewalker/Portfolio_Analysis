@@ -32,11 +32,11 @@ Utilized **yfinance** for data retrieval of NSE stocks, obtaining historical pri
 
 ## Efficient Frontier
 
-Optimal weights 
+Portfolio Variance <br/>
 ![](screenshots/port_Var2.jpg) <br/>
 
-Portfolio Variance
-![](screenshots/op_wts.JPG.jpg) <br/>
+Optimal weights <br/>
+![](screenshots/op_wts.JPG) <br/>
 
-Efficient Frontier
-![](screenshots/eff_front3.JPG)
+Efficient Frontier <br/>
+![](screenshots/eff_front3.JPG) <br/>
