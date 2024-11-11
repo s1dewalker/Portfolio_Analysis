@@ -1,6 +1,6 @@
 ![](screenshots/1731338279656.jpg)
 ### [Portfolio Analysis with Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/Portfolio_Analysis.ipynb) <br/>
-### [Portfolio Analysis & EfficientFrontier portfolio of NSE stocks](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/ETFs.ipynb)
+### [Portfolio Analysis & EfficientFrontier of NSE stocks](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/ETFs.ipynb)
 <br/> 
 
 ## Data Extraction and Preprocessing <br/>
