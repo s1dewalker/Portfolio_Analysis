@@ -9,12 +9,12 @@ Utilized **yfinance** for data retrieval of NSE stocks, obtaining historical pri
 ## Value at risk | Historical (VaR) | Expected Shortfall (CVaR) <br/>
 'df' is the DataFrame that contains daily prices of stocks. <br/>
 'weights' is the array that contains portfolio weights. <br/>
- Finding var95 and cvar95 (4 steps):<br/>
-> #### 1) returns = df.pct_change()
+ Finding var95 and cvar95:<br/>
+> #### returns = df.pct_change()
 > returns.dropna(inplace = True)
-> #### 2) returns_pf = returns.dot(weights)
-> #### 3) var = np.percentile(returns_pf, 5)
-> #### 4) cvar = returns_pf [returns_pf <= var].mean()
+> #### returns_pf = returns.dot(weights)
+> #### var = np.percentile(returns_pf, 5)
+> #### cvar = returns_pf [returns_pf <= var].mean()
 
 ## Annualize return <br/>
 > #### pf_AUM = df.dot(weights)
