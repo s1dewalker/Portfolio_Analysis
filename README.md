@@ -16,6 +16,7 @@ Utilized **yfinance** for data retrieval of NSE stocks, obtaining historical pri
 - var = np.percentile(returns_pf, 5)
 - cvar = returns_pf [returns_pf <= var].mean()
 
+![](screenshots/cvar.JPG) <br/>
 
 
 ## Annualized return <br/>
