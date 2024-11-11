@@ -15,3 +15,15 @@ Utilized **yfinance** for data retrieval of NSE stocks, obtaining historical pri
 > #### 2) returns_pf = returns.dot(weights)
 > #### 3) var = np.percentile(returns_pf, 5)
 > #### 4) cvar = returns_pf [returns_pf <= var].mean()
+
+## Annualize return <br/>
+> #### pf_AUM = df.dot(weights)
+> #### total_return = (pf_AUM[-1] - pf_AUM[0]) / pf_AUM[0]
+> #### an_return = ((1 + total_return) * * (12 / months_ diff)) - 1
+
+## Sharpe Ratio <br/>
+
+> #### pf_returns = pf_AUM.pct_change()
+> #### pf_vol = pf_returns.std()
+> #### pf_vol = pf_vol * np.sqrt(250)
+> #### sharpe_ratio = ((annualized_return - rfr) / pf_vol)
