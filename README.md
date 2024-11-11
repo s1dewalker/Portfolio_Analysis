@@ -31,9 +31,12 @@ Utilized **yfinance** for data retrieval of NSE stocks, obtaining historical pri
 - sharpe_ratio = ((annualized_return - rfr) / pf_vol)
 
 ## Efficient Frontier
-Portfolio Variance
-![](screenshots/op_wts.JPG.jpg) <br/>
+
 Optimal weights 
 ![](screenshots/port_Var2.jpg) <br/>
+
+Portfolio Variance
+![](screenshots/op_wts.JPG.jpg) <br/>
+
 Efficient Frontier
 ![](screenshots/eff_front3.JPG)
