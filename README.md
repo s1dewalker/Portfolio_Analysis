@@ -22,7 +22,7 @@ Utilized **yfinance** for data retrieval of NSE stocks, obtaining historical pri
 ## Annualized return <br/>
 - pf_AUM = df.dot(weights)
 - total_return = (pf_AUM[-1] - pf_AUM[0]) / pf_AUM[0]
-- an_return = ((1 + total_return) * * (12 / months_ diff)) - 1
+- annualized_return = ((1 + total_return) * * (12 / months)) - 1
 
 ## Risk-adjusted return | Sharpe Ratio | Efficiency of risk taking <br/>
 
