@@ -34,7 +34,7 @@ Utilized **yfinance** for data retrieval of NSE stocks, obtaining historical pri
 ## Portfolio Optimization | Efficient Frontier
 
 Portfolio Variance <br/>
-![](screenshots/port_Var2.jpg) <br/>
+![](screenshots/var_port.JPG) <br/>
 
 Optimal weights <br/>
 ![](screenshots/op_wts.JPG) <br/>
