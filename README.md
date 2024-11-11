@@ -1,9 +1,12 @@
 # ETF Portfolio and Risk Analysis
-## [Portfolio Analysis with Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/Portfolio_Analysis.ipynb) <br/>
-## [Portfolio Analysis & EfficientFrontier ETFs of NSE stocks](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/ETFs.ipynb)
+### [Portfolio Analysis with Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/Portfolio_Analysis.ipynb) <br/>
+### [Portfolio Analysis & EfficientFrontier ETFs of NSE stocks](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/ETFs.ipynb)
 <br/> 
 
-### Value at risk | Historical (VaR) | Expected Shortfall (CVaR) <br/>
+## Data Extraction and Preprocessing <br/>
+Utilized **yfinance** for data retrieval of NSE stocks, obtaining historical price data for a specified date range
+
+## Value at risk | Historical (VaR) | Expected Shortfall (CVaR) <br/>
 'df' is the DataFrame that contains daily prices of stocks. <br/>
 'weights' is the array that contains portfolio weights. <br/>
  Finding var95 and cvar95 (4 steps):<br/>
