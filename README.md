@@ -7,7 +7,7 @@ Inspired by many **specialized ETFs** (An investment vehicle that pools a group 
 <br/> 
 
 ## Data Extraction and Preprocessing <br/>
-Utilized `**yfinance**` for data retrieval of NSE stocks, obtaining historical price data for a specified date range
+Utilized `yfinance` for data retrieval of NSE stocks, obtaining historical price data for a specified date range
 
 ## Value at risk | Historical (VaR) | Expected Shortfall (CVaR) <br/>
 'df' is the DataFrame that contains daily prices of stocks. <br/>
