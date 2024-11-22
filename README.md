@@ -36,14 +36,14 @@ Utilized `yfinance` for data retrieval of NSE stocks, obtaining historical price
 
 ## Portfolio Optimization | Efficient Frontier
 
-Portfolio Variance <br/>
+#### Portfolio Variance <br/>
 ![](screenshots/var_port.JPG) <br/>
 
 
-Optimal weights <br/>
+#### Optimal weights <br/>
 ![](screenshots/op_wts.JPG) <br/>
 
-Efficient Frontier <br/>
+#### Efficient Frontier <br/>
 ![](screenshots/eff_front3.JPG) <br/>
 
 ### Python libraries: 
