@@ -51,5 +51,6 @@ pandas, numpy, yfinance, matplotlib, `PyPortfolioOpt` (including `EfficientFront
 <br/><br/>
 
 <br/>
+
 *hope you find it helpful, and encourage you to forward any suggestions for improvements* <br/>
 ##### [LinkedIn](https://www.linkedin.com/in/sujay-bhaumik-d12/)
