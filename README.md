@@ -50,5 +50,6 @@ Efficient Frontier <br/>
 pandas, numpy, yfinance, matplotlib, `PyPortfolioOpt` (including `EfficientFrontier` for portfolio optimization)
 <br/><br/>
 
+<br/>
 *hope you find it helpful, and encourage you to forward any suggestions for improvements* <br/>
 ##### [LinkedIn](https://www.linkedin.com/in/sujay-bhaumik-d12/)
