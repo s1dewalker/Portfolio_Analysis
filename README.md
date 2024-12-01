@@ -46,10 +46,12 @@ Utilized `yfinance` for data retrieval of NSE stocks, obtaining historical price
 
 
 ### Optimal weights <br/>
-![](screenshots/op_wts.JPG) <br/>
+
+<img src="screenshots/op_wts.JPG" alt="Description" width="600">
 
 ### Efficient Frontier <br/>
-![](screenshots/eff_front3.JPG) <br/>
+
+<img src="screenshots/eff_front3.JPG" alt="Description" width="600">
 
 ### Python libraries: 
 pandas, numpy, yfinance, matplotlib, `PyPortfolioOpt` (including `EfficientFrontier` for portfolio optimization)
