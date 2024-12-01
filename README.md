@@ -53,6 +53,9 @@ Utilized `yfinance` for data retrieval of NSE stocks, obtaining historical price
 
 <img src="screenshots/eff_front3.JPG" alt="Description" width="600">
 
+The efficient frontier is the set of portfolios that achieve the highest return for a given risk or the lowest risk for a given return, representing optimal diversification. <br/>
+
+
 ### Python libraries: 
 pandas, numpy, yfinance, matplotlib, `PyPortfolioOpt` (including `EfficientFrontier` for portfolio optimization)
 <br/><br/>
