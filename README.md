@@ -12,7 +12,7 @@ A portfolio, if selected properly, is less vulnerable to extreme highs and lows,
 ## Data Extraction and Preprocessing <br/>
 Utilized `yfinance` for data retrieval of NSE stocks, obtaining historical price data for a specified date range
 
-## Value at risk | Historical VaR | Expected Shortfall (CVaR) <br/>
+## Value at Risk (VaR) | Historical VaR | Expected Shortfall (CVaR) <br/>
 'df' is the DataFrame that contains daily prices of stocks. <br/>
 'weights' is the array that contains portfolio weights. <br/>
  Finding var95 and cvar95:<br/>
