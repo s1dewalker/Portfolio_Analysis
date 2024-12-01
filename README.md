@@ -40,7 +40,7 @@ Utilized `yfinance` for data retrieval of NSE stocks, obtaining historical price
 ## Portfolio Optimization | Efficient Frontier
 
 ### Portfolio Variance <br/>
-- `cov_matrix = (daily_returns.cov())*250 `
+- `cov_matrix = (returns.cov())*250 `
 - `port_variance = np.dot(weights.T, np.dot(cov_matrix, weights))`
 ##### [View Portfolio Variance derivation](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/Portfolio_variance.pdf) <br/>
 
