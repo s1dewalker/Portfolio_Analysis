@@ -40,7 +40,7 @@ Utilized `yfinance` for data retrieval of NSE stocks, obtaining historical price
 ## Portfolio Optimization | Efficient Frontier
 
 ### Portfolio Variance <br/>
-![](screenshots/var_port.JPG) <br/>
+[View Portfolio Variance derivation](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/Portfolio_variance.pdf) <br/>
 
 
 ### Optimal weights <br/>
