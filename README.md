@@ -9,21 +9,26 @@ A portfolio, if selected properly, is less vulnerable to extreme highs and lows,
 #### [Meet Min Volatility and Max Sharpe Ratio on the EfficientFrontier of NSE stocks](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/ETFs.ipynb)
 <br/> 
 
-## Data Extraction and Preprocessing <br/>
-Utilized `yfinance` for data retrieval of NSE stocks, obtaining historical price data for a specified date range
-
-## Value at Risk (VaR) | Historical VaR | Expected Shortfall (CVaR) <br/>
+# 1. Data Extraction and Portfolio Construction <br/>
+Utilized `yfinance` for data retrieval of NSE stocks, obtaining historical price data for a specified date range. <br/>
+<br/>
 'df' is the DataFrame that contains daily prices of stocks. <br/>
 'weights' is the array that contains portfolio weights. <br/>
- Finding var95 and cvar95:<br/>
 - `returns = df.pct_change()` <br/>
   `returns.dropna(inplace = True)`
 - `returns_pf = returns.dot(weights)`
+
+
+# 2. Value at Risk (VaR) | Historical VaR | Expected Shortfall (CVaR) <br/>
+
+ Finding var95 and cvar95:<br/>
+
 - `var = np.percentile(returns_pf, 5)`
 - `cvar = returns_pf [returns_pf <= var].mean()`
 
 ![](screenshots/cvar.JPG) <br/>
 
+# 3. Portfolio Risk Metrics <br/>
 
 ## Annualized return <br/>
 - `pf_AUM = df.dot(weights)`
