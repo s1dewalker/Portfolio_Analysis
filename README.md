@@ -97,8 +97,8 @@ Risk management:
 - Optimize portfolio by adjusting exposures
 - Evaluate performance
 
-##### [View Factor Analysis of NSE stocks](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/Factor_Analysis.ipynb)
-##### [View Multi Factor Analysis of NYSE stocks](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/Multi_Factor_Analysis.ipynb)
+##### [View Factor Analysis of NSE stocks in Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/Factor_Analysis.ipynb)
+##### [View Multi Factor Analysis of NYSE stocks in Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/Multi_Factor_Analysis.ipynb)
 
 # 5. Portfolio Optimization | Efficient Frontier
 
