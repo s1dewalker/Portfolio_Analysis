@@ -22,7 +22,6 @@ Utilized `yfinance` for data retrieval of NSE stocks, obtaining historical price
 # 2. Value at Risk (VaR) | Historical VaR | Expected Shortfall (CVaR) <br/>
 
  Finding var95 and cvar95:<br/>
-
 - `var = np.percentile(returns_pf, 5)`
 - `cvar = returns_pf [returns_pf <= var].mean()`
 
@@ -31,23 +30,53 @@ Utilized `yfinance` for data retrieval of NSE stocks, obtaining historical price
 # 3. Portfolio Risk Metrics <br/>
 
 ## Annualized return <br/>
+
+#### Q. Why annualize returns? <br/>
+- To account for compounding effect
+- To compare portfolios with different time periods
+- Average return can be deceiving (example: if portfolio loses all its value in the end the average may be > 0%, but final return is 0%)
+<br/>
+
+Annualizing returns:
 - `pf_AUM = df.dot(weights)`
 - `total_return = (pf_AUM[-1] - pf_AUM[0]) / pf_AUM[0]`
 - `annualized_return = ((1 + total_return) * * (12 / months)) - 1`
 
-## Risk-adjusted return | Sharpe Ratio | Efficiency of risk taking <br/>
-
+## Annualized Volatility <br/>
 - `pf_returns = pf_AUM.pct_change()`
 - `pf_vol = pf_returns.std()`
 - `pf_vol = pf_vol * np.sqrt(250)`
+
+#### Q. Why multiply with sqrt(250)
+250: trading days in a year (annual)
+sqrt: variance annualized = 250 * variance daily. <br/>
+Therefore, standard deviation annualized = sqrt(250) * standard deviation daily.
+<br/>
+
+## Risk-adjusted return | Sharpe Ratio | Efficiency of risk taking <br/>
+
+
 - `sharpe_ratio = ((annualized_return - rfr) / pf_vol)`
+
+## Portfolio Variance and Volatility <br/>
+
+- `cov_matrix = (returns.cov())*250 ` 
+- `port_variance = np.dot(weights.T, np.dot(cov_matrix, weights))`
+- `port_standard_dev = np.sqrt(port_variance)`
+##### [View Portfolio Variance derivation](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/Portfolio_variance.pdf) <br/>
+
+#### Q. Why annualizing covariance?
+so that we calculate the annualized volatility later. <br/>
+
+#### Q. Why portfolio variance formula instead of standard deviation?
+As stocks are **correlated** to each other, we need to account for **correlations** b/w stocks. This gives more **precision** in measuring volatility. <br/>
+It can be forward looking if covariance matrix is estimated or forecasted. <br/>
+
+#### Q. Benefits of historical method?
+Historical data method can include rebalancing. <br/>
 
 ## Portfolio Optimization | Efficient Frontier
 
-### Portfolio Variance <br/>
-- `cov_matrix = (returns.cov())*250 `
-- `port_variance = np.dot(weights.T, np.dot(cov_matrix, weights))`
-##### [View Portfolio Variance derivation](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/Portfolio_variance.pdf) <br/>
 
 
 ### Optimal weights <br/>
