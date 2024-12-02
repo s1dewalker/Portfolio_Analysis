@@ -75,21 +75,41 @@ It can be forward looking if covariance matrix is estimated or forecasted. <br/>
 #### Q. Benefits of historical method?
 Historical data method can include rebalancing. <br/>
 
-## Portfolio Optimization | Efficient Frontier
+## Skewness
+Skewness measures the asymmetry of the distribution of data around its mean. <br/>
+- `pf_returns.skew()`
 
+<br/>
 
+Risk management: Investors should seek positive skew as in the long run: <br/>
+few positive bets should create a positive expectancy <br/>
 
-### Optimal weights <br/>
+## Kurtosis
+Kurtosis measures the "tailedness" of the data distribution, indicating the presence of outliers. <br/>
+- `pf_returns.kurtosis()`
+ 
+k>3: FAT (leptokurtic) | high risk-high reward
+
+# 4. Factor Investing
+**The Fama-French 3 factor model** tells us **what drives portfolio returns** and **quantifies their contributions**.
+Risk management: 
+- Identifies exposure to specific factors (size, value)
+- Optimize portfolio by adjusting exposures
+- Evaluate performance
+
+# 5. Portfolio Optimization | Efficient Frontier
+
+## Optimal weights <br/>
 
 <img src="screenshots/op_wts.JPG" alt="Description" width="600">
 
-### Efficient Frontier <br/>
+## Efficient Frontier <br/>
 
 <img src="screenshots/eff_front3.JPG" alt="Description" width="600">
 
-The efficient frontier is the set of portfolios that achieve the highest return for a given risk or the lowest risk for a given return, representing optimal diversification. <br/>
+**The efficient frontier is the set of portfolios that achieve the highest return for a given risk or the lowest risk for a given return, representing optimal diversification.** <br/>
 ##### [View Portfolio Optimization maths](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/Portfolio_Optimization.pdf) <br/>
-<br/><br/>
+<br/>
 
 ##### Python libraries: 
 ##### `pandas, numpy, yfinance, matplotlib, PyPortfolioOpt, EfficientFrontier` 
