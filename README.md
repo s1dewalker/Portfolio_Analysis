@@ -1,4 +1,4 @@
-![](screenshots/Picsart_24-11-12_05-51-06-215.jpg)
+![](screenshots/PRA.png)
 
 Inspired by many **specialized ETFs** (An investment vehicle that pools a group of securities into a fund. It can be traded like an individual stock on an exchange). Creating a basket of stocks with weights for **specific investment strategies or weighting criteria beyond traditional market-capitalization indexes and treating them all as a unit.**
 <br/>
