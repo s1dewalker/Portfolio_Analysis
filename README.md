@@ -25,7 +25,7 @@ Utilized `yfinance` for data retrieval of NSE stocks, obtaining historical price
 - `var = np.percentile(returns_pf, 5)`
 - `cvar = returns_pf [returns_pf <= var].mean()`
 
-![](screenshots/var.JPG) <br/>
+![](screenshots/var2.JPG) <br/>
 
 # 3. Portfolio Risk Metrics <br/>
 
