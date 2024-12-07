@@ -16,8 +16,11 @@ Utilized `yfinance` for data retrieval of NSE stocks, obtaining historical price
 'weights' is the array that contains portfolio weights. <br/>
 - `returns = df.pct_change()` <br/>
   `returns.dropna(inplace = True)`
-- `returns_pf = returns.dot(weights)`
 
+Portfolio construction w/ stock returns
+- `returns_pf = returns.dot(weights)`
+Portfolio construction w/ stock values
+- - `pf_AUM = df.dot(weights)`
 
 # 2. Value at Risk (VaR) | Historical VaR | Expected Shortfall (CVaR) <br/>
 
@@ -39,7 +42,6 @@ Utilized `yfinance` for data retrieval of NSE stocks, obtaining historical price
 <br/>
 
 Annualizing returns:
-- `pf_AUM = df.dot(weights)`
 - `total_return = (pf_AUM[-1] - pf_AUM[0]) / pf_AUM[0]`
 - `annualized_return = ((1 + total_return) * * (12 / months)) - 1`
 
