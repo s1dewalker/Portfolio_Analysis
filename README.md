@@ -63,7 +63,8 @@ Therefore, standard deviation annualized = sqrt(250) * standard deviation daily.
 - `cov_matrix = (returns.cov())*250 ` 
 - `port_variance = np.dot(weights.T, np.dot(cov_matrix, weights))`
 - `port_standard_dev = np.sqrt(port_variance)`
-##### [View Portfolio Variance derivation](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/Portfolio_variance.pdf) <br/>
+
+[View Portfolio Variance derivation](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/Portfolio_variance.pdf) <br/>
 
 #### Q. Why annualizing covariance?
 so that we calculate the annualized volatility later. <br/>
@@ -111,7 +112,7 @@ Risk management:
 <img src="screenshots/eff_front3.JPG" alt="Description" width="600">
 
 **The efficient frontier is the set of portfolios that achieve the highest return for a given risk or the lowest risk for a given return, representing optimal diversification.** <br/>
-##### [View Portfolio Optimization maths](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/Portfolio_Optimization.pdf) <br/>
+[View Portfolio Optimization maths](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/Portfolio_Optimization.pdf) <br/>
 <br/>
 
 ##### Python libraries: 
