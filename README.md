@@ -19,6 +19,7 @@ Utilized `yfinance` for data retrieval of NSE stocks, obtaining historical price
 
 Portfolio construction w/ stock returns
 - `returns_pf = returns.dot(weights)`
+
 Portfolio construction w/ stock values
 - `pf_AUM = df.dot(weights)`
 
