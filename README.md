@@ -103,7 +103,7 @@ Monte Carlo VaR:<br/>
 <img src="screenshots/mcvar.JPG" alt="Description" width="500">
 
 
-#### [View Complete Risk Analysis](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/RiskAnalysis.ipynb) with 15 Portfolio Risk metrics including 5 VaR metrics
+### [View Complete Risk Analysis](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/RiskAnalysis.ipynb) with 15 Portfolio Risk metrics including 5 VaR metrics
 <br/> 
 
 # 4. Factor Investing
@@ -113,8 +113,8 @@ Risk management:
 - Optimize portfolio by adjusting exposures
 - Evaluate performance
 
-#### [View Factor Analysis of NSE stocks in Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/Factor_Analysis.ipynb)
-#### [View Multi Factor Analysis of NYSE stocks in Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/Multi_Factor_Analysis.ipynb)
+### [View Factor Analysis of NSE stocks in Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/Factor_Analysis.ipynb)
+### [View Multi Factor Analysis of NYSE stocks in Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/Multi_Factor_Analysis.ipynb)
 <br/> 
 
 # 5. Portfolio Optimization | Efficient Frontier
@@ -130,6 +130,8 @@ Risk management:
 **The efficient frontier is the set of portfolios that achieve the highest return for a given risk or the lowest risk for a given return, representing optimal diversification.** <br/>
 [View Portfolio Optimization maths](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/Portfolio_Optimization.pdf) <br/>
 <br/>
+
+### [View Complete Portfolio Optimization](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/ETFs.ipynb) of NSE stocks
 
 ##### Python libraries: 
 ##### `pandas, numpy, yfinance, matplotlib, PyPortfolioOpt, EfficientFrontier` 
