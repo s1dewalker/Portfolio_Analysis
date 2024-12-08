@@ -24,16 +24,7 @@ Portfolio construction w/ stock returns
 Portfolio construction w/ stock values
 - `pf_AUM = df.dot(weights)`
 
-# 2. Value at Risk (VaR) | Historical VaR | Expected Shortfall (CVaR) <br/>
-
- Finding var95 and cvar95:<br/>
-- `var = np.percentile(returns_pf, 5)`
-- `cvar = returns_pf [returns_pf <= var].mean()`
-
-
-<img src="screenshots/var2.JPG" alt="Description" width="500">
-
-# 3. Portfolio Risk Metrics <br/>
+# 2. Risk Analysis - Some Basic Portfolio Risk Metrics <br/>
 
 ## Annualized return <br/>
 
@@ -95,6 +86,14 @@ Kurtosis measures the "tailedness" of the data distribution, indicating the pres
 - `pf_returns.kurtosis()`
  
 k>3: FAT (leptokurtic) | high risk-high reward
+
+# 3. Value at Risk (VaR) <br/>
+
+ Finding var95 and cvar95:<br/>
+- `var = np.percentile(returns_pf, 5)`
+- `cvar = returns_pf [returns_pf <= var].mean()`
+
+<img src="screenshots/var2.JPG" alt="Description" width="500">
 
 # 4. Factor Investing
 **The Fama-French 3 factor model** tells us **what drives portfolio returns** and **quantifies their contributions**.
