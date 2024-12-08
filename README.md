@@ -51,7 +51,6 @@ Therefore, standard deviation annualized = sqrt(250) * standard deviation daily.
 
 ## Risk-adjusted return | Sharpe Ratio | Efficiency of risk taking <br/>
 
-
 - `sharpe_ratio = ((annualized_return - rfr) / pf_vol)`
 
 ## Portfolio Variance and Volatility <br/>
@@ -75,7 +74,6 @@ Historical data method can include rebalancing. <br/>
 ## Skewness
 Skewness measures the asymmetry of the distribution of data around its mean. <br/>
 - `pf_returns.skew()`
-
 <br/>
 
 Risk management: Investors should seek positive skew as in the long run: <br/>
