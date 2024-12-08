@@ -7,7 +7,7 @@ A portfolio, if selected properly, is less vulnerable to extreme highs and lows,
 <br/>
 #### [View Portfolio Analysis of US stocks with Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/Portfolio_Analysis.ipynb) <br/>
 #### [Meet Min Volatility and Max Sharpe Ratio on the EfficientFrontier of NSE stocks](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/ETFs.ipynb)
-#### [View Risk Analysis](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/RiskAnalysis.ipynb) with 15 Portfolio Risk metrics including 5 VaR metrics
+#### [View Risk Analysis](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/RiskAnalysis.ipynb)
 <br/> 
 
 # 1. Data Extraction and Portfolio Construction <br/>
@@ -91,6 +91,8 @@ k>3: FAT (leptokurtic) | high risk-high reward
 - `cvar = returns_pf [returns_pf <= var].mean()`
 
 <img src="screenshots/var2.JPG" alt="Description" width="500">
+
+#### [View Complete Risk Analysis](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/RiskAnalysis.ipynb) with 15 Portfolio Risk metrics including 5 VaR metrics
 
 # 4. Factor Investing
 **The Fama-French 3 factor model** tells us **what drives portfolio returns** and **quantifies their contributions**.
