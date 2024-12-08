@@ -92,6 +92,14 @@ k>3: FAT (leptokurtic) | high risk-high reward
 
 <img src="screenshots/var2.JPG" alt="Description" width="500">
 
+
+Monte Carlo Simulation:<br/>
+<img src="screenshots/mcsim.JPG" alt="Description" width="500">
+
+Monte Carlo VaR:<br/>
+<img src="screenshots/mcvar.JPG" alt="Description" width="500">
+
+
 #### [View Complete Risk Analysis](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/RiskAnalysis.ipynb) with 15 Portfolio Risk metrics including 5 VaR metrics
 
 # 4. Factor Investing
