@@ -23,6 +23,7 @@ Portfolio construction w/ stock returns
 
 Portfolio construction w/ stock values
 - `pf_AUM = df.dot(weights)`
+<br/>
 
 # 2. Risk Analysis - Some Basic Portfolio Risk Metrics <br/>
 
@@ -84,6 +85,8 @@ Kurtosis measures the "tailedness" of the data distribution, indicating the pres
  
 k>3: FAT (leptokurtic) | high risk-high reward
 
+<br/> 
+
 # 3. Risk Analysis - Value at Risk (VaR) <br/>
 
  Finding var95 and cvar95:<br/>
@@ -101,6 +104,7 @@ Monte Carlo VaR:<br/>
 
 
 #### [View Complete Risk Analysis](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/RiskAnalysis.ipynb) with 15 Portfolio Risk metrics including 5 VaR metrics
+<br/> 
 
 # 4. Factor Investing
 **The Fama-French 3 factor model** tells us **what drives portfolio returns** and **quantifies their contributions**.
@@ -111,6 +115,7 @@ Risk management:
 
 #### [View Factor Analysis of NSE stocks in Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/Factor_Analysis.ipynb)
 #### [View Multi Factor Analysis of NYSE stocks in Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/Multi_Factor_Analysis.ipynb)
+<br/> 
 
 # 5. Portfolio Optimization | Efficient Frontier
 
