@@ -66,7 +66,7 @@ Therefore, standard deviation annualized = sqrt(250) * standard deviation daily.
 so that we calculate the annualized volatility later. <br/>
 
 #### Q. Why portfolio variance formula instead of standard deviation?
-As stocks are **correlated** to each other, we need to account for **correlations** b/w stocks. This gives more **precision** in measuring volatility. <br/>
+**Precision**: As stocks are **correlated** to each other, we need to account for **correlations** b/w stocks. This gives more **precision** in measuring volatility. <br/>
 It can be forward looking if covariance matrix is estimated or forecasted. <br/>
 
 #### Q. Benefits of historical method?
