@@ -87,7 +87,7 @@ Kurtosis measures the "tailedness" of the data distribution, indicating the pres
  
 k>3: FAT (leptokurtic) | high risk-high reward
 
-# 3. Value at Risk (VaR) <br/>
+# 3. Risk Analysis - Value at Risk (VaR) <br/>
 
  Finding var95 and cvar95:<br/>
 - `var = np.percentile(returns_pf, 5)`
