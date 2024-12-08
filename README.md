@@ -74,7 +74,6 @@ Historical data method can include rebalancing. <br/>
 ## Skewness
 Skewness measures the asymmetry of the distribution of data around its mean. <br/>
 - `pf_returns.skew()`
-<br/>
 
 Risk management: Investors should seek positive skew as in the long run: <br/>
 few positive bets should create a positive expectancy <br/>
