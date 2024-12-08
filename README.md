@@ -129,9 +129,10 @@ Risk management:
 
 **The efficient frontier is the set of portfolios that achieve the highest return for a given risk or the lowest risk for a given return, representing optimal diversification.** <br/>
 [View Portfolio Optimization maths](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/Portfolio_Optimization.pdf) <br/>
-<br/>
 
 ### [View Complete Portfolio Optimization](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/ETFs.ipynb) of NSE stocks
+
+<br/>
 
 ##### Python libraries: 
 ##### `pandas, numpy, yfinance, matplotlib, PyPortfolioOpt, EfficientFrontier` 
