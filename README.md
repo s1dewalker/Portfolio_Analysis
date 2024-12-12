@@ -103,7 +103,7 @@ Monte Carlo VaR:<br/>
 <img src="screenshots/mcvar.JPG" alt="Description" width="500">
 
 
-### [View Complete Risk Analysis](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/RiskAnalysis.ipynb) with 15 Portfolio Risk metrics including 5 VaR metrics
+### [View Complete Risk Analysis](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/RiskAnalysis.ipynb) w/ 15 Portfolio Risk metrics including 5 VaR metrics
 <br/> 
 
 # 4. Factor Investing
