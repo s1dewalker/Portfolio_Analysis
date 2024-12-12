@@ -3,7 +3,7 @@
 Inspired by many **specialized ETFs** (An investment vehicle that pools a group of securities into a fund. It can be traded like an individual stock on an exchange). Creating a basket of stocks with weights for **specific investment strategies or weighting criteria beyond traditional market-capitalization indexes and treating them all as a unit.**
 <br/>
 
-A portfolio, if selected properly, is less vulnerable to extreme highs and lows, and provides the benefits of diversification.
+A portfolio, if selected properly, is less vulnerable to extreme highs and lows, and provides the benefits of **diversification**.
 <br/>
 ### [View Portfolio Analysis of US stocks w/ Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/Portfolio_Analysis.ipynb) <br/>
 ### [Meet Min Volatility and Max Sharpe Ratio on the EfficientFrontier of NSE stocks](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/ETFs.ipynb)
