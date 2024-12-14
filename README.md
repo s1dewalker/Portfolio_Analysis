@@ -76,8 +76,7 @@ Historical data method can include rebalancing. <br/>
 Skewness measures the asymmetry of the distribution of data around its mean. <br/>
 - `pf_returns.skew()`
 
-Risk management: Investors should seek positive skew as in the long run: <br/>
-few positive bets should create a positive expectancy <br/>
+Risk management: Investors should seek positive skew as in the long run, few positive bets should create a positive expectancy <br/>
 
 ## Kurtosis
 Kurtosis measures the "tailedness" of the data distribution, indicating the presence of outliers. <br/>
