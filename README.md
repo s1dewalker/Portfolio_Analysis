@@ -5,9 +5,13 @@ Inspired by many **specialized ETFs** (An investment vehicle that pools a group 
 
 A portfolio, if selected properly, is less vulnerable to extreme highs and lows, and provides the benefits of **diversification**.
 <br/>
+
+This project offers optimization and modeling tools for investment strategies. Leveraging Efficient Frontier modeling, Monte Carlo simulation, risk metrics (Sharpe ratio, VaR), and Fama French factor models w/ python libraries like pandas, yfinance, and PyPortfolioOpt. <br/>
+
 ### [View Portfolio Analysis of US stocks w/ Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/Portfolio_Analysis.ipynb) <br/>
 ### [Meet Min Volatility and Max Sharpe Ratio on the EfficientFrontier of NSE stocks](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/ETFs.ipynb)
 ### [View Risk Analysis in Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/RiskAnalysis.ipynb)
+### [Fama French 3 Factor Modeling of NYSE stocks in Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/Multi_Factor_Analysis.ipynb)
 <br/> 
 
 # 1. Data Extraction and Portfolio Construction <br/>
