@@ -112,6 +112,7 @@ Monte Carlo VaR:<br/>
 
 # 4. Factor Investing
 **The Fama-French 3 factor model** tells us **what drives portfolio returns** and **quantifies their contributions**. <br/>
+
 Risk management: 
 - Identifies exposure to specific factors (size, value)
 - Optimize portfolio by adjusting exposures
