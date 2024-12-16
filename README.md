@@ -113,12 +113,14 @@ Monte Carlo VaR:<br/>
 # 4. Factor Investing
 **The Fama-French 3 factor model** tells us **what drives portfolio returns** and **quantifies their contributions**. <br/>
 
+`FamaFrench_model = smf.ols(formula='Portfolio_Excess ~ Market_Excess + SMB + HML', data=FamaFrenchData_final)`
+
 Risk management: 
 - Identifies exposure to specific factors (size, value)
 - Optimize portfolio by adjusting exposures
 - Evaluate performance
 
-`FamaFrench_model = smf.ols(formula='Portfolio_Excess ~ Market_Excess + SMB + HML', data=FamaFrenchData_final)`
+
 
 
 ### [View Multi Factor Analysis of NYSE stocks in Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/Multi_Factor_Analysis2.ipynb)
