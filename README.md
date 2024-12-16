@@ -11,7 +11,7 @@ This project offers optimization and modeling tools for investment strategies. L
 
 
 ### [View Risk Analysis w/ 15 risk metrics in Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/RiskAnalysis.ipynb)
-### [Fama French 3-Factor Modeling of NYSE stocks in Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/Multi_Factor_Analysis.ipynb)
+### [Fama French 3-Factor Modeling of NYSE stocks in Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/Multi_Factor_Analysis2.ipynb)
 ### [Meet Min Volatility and Max Sharpe Ratio on the EfficientFrontier of NSE stocks](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/ETFs.ipynb)
 <br/> 
 
@@ -120,7 +120,7 @@ Risk management:
 `FamaFrench_model = smf.ols(formula='Portfolio_Excess ~ Market_Excess + SMB + HML', data=FamaFrenchData_final)`
 
 
-### [View Multi Factor Analysis of NYSE stocks in Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/Multi_Factor_Analysis.ipynb)
+### [View Multi Factor Analysis of NYSE stocks in Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/Multi_Factor_Analysis2.ipynb)
 <br/> 
 
 # 5. Portfolio Optimization | Efficient Frontier
