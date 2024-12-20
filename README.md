@@ -119,7 +119,7 @@ Risk management:
 - Identifies exposure to specific factors (size, value)
 - Optimize portfolio by adjusting exposures
 - Evaluate performance
-
+<br/>
 <img src="screenshots/alpha.JPG" alt="Description" width="1000">
 
 
