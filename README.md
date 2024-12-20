@@ -120,7 +120,7 @@ Risk management:
 - Optimize portfolio by adjusting exposures
 - Evaluate performance
 
-
+<img src="screenshots/alpha.JPG" alt="Description" width="600">
 
 
 ### [View Multi Factor Analysis of NYSE stocks in Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/Multi_Factor_Analysis2.ipynb)
