@@ -128,11 +128,14 @@ Risk management:
 
 # 5. Portfolio Optimization | Efficient Frontier
 
+<img src="screenshots/lagrangemultiplier.JPG" alt="Description" width="600">
+
 ## Optimal weights <br/>
 
 <img src="screenshots/op_wts.JPG" alt="Description" width="600">
 
 ## Efficient Frontier <br/>
+
 
 <img src="screenshots/eff_front3.JPG" alt="Description" width="600">
 
