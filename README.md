@@ -1,6 +1,6 @@
 ![](screenshots/PRA.png)
 
-Inspired by many **specialized ETFs** (An investment vehicle that pools a group of securities into a fund. It can be traded like an individual stock on an exchange). Creating a basket of stocks with weights for **specific investment strategies or weighting criteria beyond traditional market-capitalization indexes and treating them all as a unit.**
+Inspired by many **specialized ETFs** (Exchange-Traded Funds: An investment vehicle that pools a group of securities into a fund. It can be traded like an individual stock on an exchange). Creating a basket of stocks with weights for **specific investment strategies or weighting criteria beyond traditional market-capitalization indexes and treating them all as a unit.**
 <br/>
 
 A portfolio, if selected properly, is less vulnerable to extreme highs and lows, and provides the benefits of **diversification**.
