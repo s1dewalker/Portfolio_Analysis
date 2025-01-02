@@ -147,7 +147,7 @@ Risk management:
 <br/>
 
 ##### Python libraries: 
-##### `pandas, numpy, yfinance, matplotlib, PyPortfolioOpt, EfficientFrontier` 
+##### `pandas, numpy, yfinance, matplotlib, pypfopt` 
 <br/>
 
 *hope you find it helpful, and encourage you to forward any suggestions for improvements* <br/>
