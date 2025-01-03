@@ -122,6 +122,9 @@ Risk management:
 <br/>
 <img src="screenshots/alpha.JPG" alt="Description" width="1000">
 
+#### Q. Why not use UFO sightings as a factor?
+because there might be a high correlation with their levels but not with their changes so correlation of % change or differences will be close to 0.
+
 
 ### [View Multi Factor Analysis of NYSE stocks in Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/Multi_Factor_Analysis2.ipynb)
 <br/> 
