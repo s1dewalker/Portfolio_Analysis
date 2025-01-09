@@ -50,7 +50,7 @@ Annualizing returns:
 - `pf_vol = pf_vol * np.sqrt(250)`
 
 #### Q. Why multiply with sqrt(250)
-250: trading days in a year (annual)
+250: trading days in a year (annual) <br/>
 sqrt: variance annualized = 250 * variance daily. <br/>
 Therefore, standard deviation annualized = sqrt(250) * standard deviation daily.
 <br/>
