@@ -153,5 +153,5 @@ because there might be a high correlation with their levels but not with their c
 ##### `pandas, numpy, yfinance, matplotlib, pypfopt` 
 <br/>
 
-*hope you find it helpful, and encourage you to forward any suggestions for improvements* <br/>
+
 ##### [LinkedIn](https://www.linkedin.com/in/sujay-bhaumik-d12/) | s1dewalker23@gmail.com | [Discussions](https://github.com/s1dewalker/Portfolio_Analysis/discussions/1) | [Research Works](https://github.com/s1dewalker/Research-Works)
