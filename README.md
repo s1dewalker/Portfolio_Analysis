@@ -126,7 +126,7 @@ Risk management:
 because there might be a high correlation with their levels but not with their changes so correlation of % change or differences will be close to 0.
 
 
-### [View Multi Factor Analysis of NYSE stocks in Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/Multi_Factor_Analysis2.ipynb)
+### [View Multi Factor Analysis of NYSE stocks in Python](https://github.com/s1dewalker/Portfolio_Analysis/blob/main/py_files/Multi_Factor_Analysis3.ipynb)
 <br/> 
 
 # 5. Portfolio Optimization | Efficient Frontier
